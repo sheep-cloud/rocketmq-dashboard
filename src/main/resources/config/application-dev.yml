@@ -1,0 +1,9 @@
+server:
+  port: 8080
+
+rocketmq:
+  config:
+    # 指定RocketMQ的name server地址
+    namesrvAddrs:
+      - 127.0.0.1:9876
+      - 127.0.0.2:9876

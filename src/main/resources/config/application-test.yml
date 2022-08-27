@@ -1,0 +1,9 @@
+server:
+  port: 8443
+
+rocketmq:
+  config:
+    # 指定RocketMQ的name server地址
+    namesrvAddrs:
+      - hadoop102:9876
+      - hadoop103:9876
